@@ -1,0 +1,18 @@
+TGW Caucasus Training mission.
+• These files all need to be put in saved games\dcs\ or equiv folder.
+
+
+In script_loader.lua you will see the following lines:
+restarttime = "12pm"
+restart = 6
+usehypeman = true
+password = "hahaha"
+ADMINPASSWORD2 = "yeahright"
+
+The restarttime is the time that your server restarts every day a 'sync' time.
+the restart = 6 is the hours that your server has between restarts.
+usehypeman = true/false - turn on/off the use of hypeman discord bot loading.
+password - your main admin password.
+ADMINPASSWORD2 - the password that lets you run 'Admin 2' level commands (in line script loading direct from a marker command).
+
+- Rob.
